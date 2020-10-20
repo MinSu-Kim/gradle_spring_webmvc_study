@@ -37,6 +37,10 @@ dependencies {
     //Hikari CP
     compile group: 'com.zaxxer', name: 'HikariCP', version: '3.4.5'
 
+    //logback
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
+    
     //log4j2
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.3'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.3'
